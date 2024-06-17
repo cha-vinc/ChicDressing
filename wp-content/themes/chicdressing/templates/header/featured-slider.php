@@ -67,7 +67,7 @@ $slider_data .= '}';
 			$featured_image = $preview_images[$preview_count];
 			$preview_count++;
 		} else {
-			$featured_image = get_the_post_thumbnail_url(get_the_ID(),'ashe-slider-full-thumbnail');
+			$featured_image = get_the_post_thumbnail_url('ashe-slider-full-thumbnail');
 		}
 		
 	?>
